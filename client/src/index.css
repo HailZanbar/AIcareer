@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"],input[type="password"],
+input[type="email"],input[type="number"],
+input[type="tel"],
+textarea{
+    @apply w-full border my-1 py-2 px-3 rounded-2xl;
+}
+textarea{
+    height: 140px;
+}
+button{
+    @apply bg-gray-300;
+}
+button.primary{
+    background-color: 	#198754;
+    @apply p-2 w-full text-white rounded-2xl;
+}
+
+.custom-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.custom-link:hover {
+    color: #198754;
+    text-decoration: none;
+}
+
+.countNumber{
+    color: #198754;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.centered-input {
+    text-align: center;
+    background: none;
+    height: auto
+}
+
+.title{
+    color: #198754;
+}
+
+.border-custom-green {
+    border-color: #198754;
+  }
+  
+  .text-custom-green {
+    color: #198754;
+  }
+
+  .bg-custom-green {
+    background-color: #198754;
+  }
+  
+  .result-card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Set the desired number of lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .result-card {
+    overflow: hidden;
+  }
+  
+  
+  
+  
+  
+  
+  
+
